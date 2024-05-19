@@ -22,4 +22,15 @@ Step 2: Run the Script<br>
 `wget https://raw.githubusercontent.com/muzammilvmx/Initia-Bot/main/initia-Bot.sh && chmod +x initia-Bot.sh && ./initia-Bot.sh`<br>
 
 Congratulation You are running the Initia_Network B0t by One click only!!<br>
+
+✨Before proceeding, ensure that✨
+🔶Your node is fully synchronized
+🔶Your validator is operating correctly
+Step 1: Connect to Your VPS
+
+Step 2: Run the Script<br>
+`wget https://raw.githubusercontent.com/muzammilvmx/Initia-Bot/main/Initia-Oracle.sh && chmod +x Initia-Oracle.sh && ./Initia-Oracle.sh`<br>
+
+Congratulation You are running the Initia_Network Oracle by One click only!!<br>
+
 That's it for now!!!
