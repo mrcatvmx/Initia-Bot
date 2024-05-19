@@ -25,6 +25,11 @@ Congratulation You are running the Initia_Network B0t by One click only!!<br>
 
 ✨Before proceeding, ensure that✨<br>
 🔶Your node is fully synchronized<br>
+Command to check whether is it synced or not!
+```sh
+initiad status | jq -r .sync_info
+```
+
 🔶Your validator is operating correctly<br>
 Step 1: Connect to Your VPS
 
