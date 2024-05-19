@@ -19,7 +19,7 @@ Cipher_Airdrop aims to assist individuals without coding or Linux expertise. Fol
 Step 1: Connect to Your VPS
 
 Step 2: Run the Script<br>
-`wget https://raw.githubusercontent.com/muzammilvmx/Initia-Bot/main/initia-Bot.sh.sh && chmod +x initia-Bot.sh && ./initia-Bot.sh`<br>
+`wget https://raw.githubusercontent.com/muzammilvmx/Initia-Bot/main/initia-Bot.sh && chmod +x initia-Bot.sh && ./initia-Bot.sh`<br>
 
 Congratulation You are running the Initia_Network B0t by One click only!!<br>
 That's it for now!!!
