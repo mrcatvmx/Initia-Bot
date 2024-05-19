@@ -61,7 +61,7 @@ setup_initia_node() {
 
     echo "3. Install slinky binary"
     cd $HOME && \
-    ver="v0.4.3" && \
+    ver="v0.4.4" && \
     git clone https://github.com/skip-mev/slinky.git && \
     cd slinky && \
     git checkout $ver && \
