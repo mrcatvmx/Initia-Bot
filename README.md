@@ -23,9 +23,9 @@ Step 2: Run the Script<br>
 
 Congratulation You are running the Initia_Network B0t by One click only!!<br>
 
-✨Before proceeding, ensure that✨
-🔶Your node is fully synchronized
-🔶Your validator is operating correctly
+✨Before proceeding, ensure that✨<br>
+🔶Your node is fully synchronized<br>
+🔶Your validator is operating correctly<br>
 Step 1: Connect to Your VPS
 
 Step 2: Run the Script<br>
