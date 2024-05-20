@@ -47,6 +47,9 @@ setup_initia_node() {
     # Build binary
     make install
 
+    # Move binary to /usr/local/bin
+    sudo mv build/initiad /usr/local/bin/
+
     # Set node CLI configuration
     initiad config chain-id initiation-1
     initiad config keyring-backend test
@@ -80,7 +83,8 @@ setup_initia_node() {
     sed -i -e "s%:26658%:25758%; s%:26657%:25757%; s%:6060%:25760%; s%:26656%:25756%; s%:26660%:25761%" $HOME/.initia/config/config.toml
 
     # Download latest chain data snapshot
-    curl "https://snapshots-testnet.nodejumper.io/initia-testnet/initia-testnet_latest.tar.lz4" | lz4 -dc - | tar -xf - -C "$HOME/.initia"
+    wget -O initia_211947.tar.lz4 https://snapshots.polkachu.com/testnet-snapshots/initia/initia_211947.tar.lz4 --inet4-only
+    lz4 -dc initia_211947.tar.lz4 | tar -x -C "$HOME/.initia"
 
     # Create a service
     sudo tee /etc/systemd/system/initiad.service > /dev/null << EOF
